@@ -355,7 +355,7 @@ body{
       border-radius: 5px;
       padding: 15px;
       color:rgb(61, 193, 61);
-
+      display: flex;
 
       }
       .bts img{
