@@ -74,9 +74,9 @@ body{
     border-radius: 5px;
     background-color: rgb(61, 193, 61);
    padding: 10px;
-    /* position: relative;
-    top:20px;
-    right:20px; */
+     position: absolute;
+    top:30px;
+   
   }
   .p2{
 
@@ -550,12 +550,14 @@ vertical-align: middle;
 .join{
 display: inline;
 float: right;
-margin-left: 290px;
+margin-left: 420px;
 width: 120px;
   border: rgb(61, 193, 61) 1px solid ;
   border-radius: 5px;
   background-color: rgb(61, 193, 61);
  padding: 6px;
+ position: absolute;
+ top:38px;
   /* position: relative;
   top:20px;
   right:20px; */
