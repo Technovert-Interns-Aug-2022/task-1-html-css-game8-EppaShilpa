@@ -479,20 +479,15 @@ color: white;
   .game8{
     font-size: 2cm;
   }
-  .join{
-    font-size: 0.9cm;
-  }
- .cart{
-  width: 80px;
-  height: 25px;
- }
+
+
   #nav ul li a{
-  
-    font-size: 1cm;
-   
-  
-    
+    font-size: 0.9cm;
     }
+    #nav ul li{
+      position: relative;
+      top:40px;
+     }
     .menu{
       font-size: 1cm;
     }
@@ -500,6 +495,8 @@ color: white;
       height:60px;
       weight:60px;
       margin-top: 15px;
+      position: relative;
+      top:50px;
       
     }
     .p1 .r{
@@ -513,7 +510,9 @@ color: white;
      padding: 10px;
      position: relative;
      top: -22px;
-     
+     font-size: 0.9cm;
+     position: relative;
+     top:40px;
     }
   
   .p2{
@@ -528,12 +527,10 @@ color: white;
   font-size: 0.9cm;
 }
 .p2left{
- 
   width: fit-content;
   display: inline;
   white-space: nowrap;
  margin: 40px;
-
  padding-bottom: 30px;
 }
 .p2 a{
@@ -707,12 +704,7 @@ padding-right: 15px;
         margin-left: 200px;
         color: rgb(255, 255, 255);
       }
-      /* .p4 .box .card p{
-          font-size: 2cm;
-      }
-      .p4 .card h3{
-        font-size: 1.5cm;
-      } */
+    
         #txt{
           width: 100%;
         
@@ -722,12 +714,12 @@ padding-right: 15px;
           font-size: 40px;
         }
         .p5{
-          margin-left: 300px;
+          margin-left: 400px;
         }
         .value{
           display: flex;
           flex-direction: column;
-          margin-left: 200px;
+          margin-left: 100px;
         }
         .valuein{
           display: flex;
