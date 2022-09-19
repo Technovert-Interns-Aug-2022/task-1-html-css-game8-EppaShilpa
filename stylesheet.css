@@ -94,6 +94,11 @@ display:flex;
 .p2 .p2left{
   margin-left: 30px;
 }
+.p2 #play{
+  position: relative;
+  bottom: -20px;
+
+}
  .p2right{
     margin-right: 100px;
     padding-left: 50px;
