@@ -11,7 +11,41 @@ body{
   margin-left: 80px;
   padding-top: 0px;
   margin-right: 20px;
+  
+  .maindiv{
+
+    height: 800px;
+   z-index: -1;
+    position: relative;
+  }
+  
+  .div1{
+  
+     width: 130px;
+     height: 350px;
+     background-color:rgba(100, 241, 123, 0.1);
+     position: absolute;
+     top: -15px;
+     left:30px;
+    transform: skew(30deg);
+    transform: rotate(190deg);
+  
+  }
+  .div2{
+    
+    width: 130px;
+    top:-20px;
+     height: 550px;
+     background-color: rgba(100, 241, 123, 0.1);
+     position: absolute;
+     left:110px;
+     transform: skew(20deg);
+     transform: rotate(190deg);
+  }
+ 
+  
 }
+
  .l{
   padding-top:0px;
  }
@@ -70,7 +104,7 @@ display:flex;
     justify-content: space-between;
     padding: 0px;
     padding-top: 20px;
-    margin: 30px;;
+    /* margin: 30px;; */
     margin-left: 140px;
     margin-right: 125px;
     position: relative;
