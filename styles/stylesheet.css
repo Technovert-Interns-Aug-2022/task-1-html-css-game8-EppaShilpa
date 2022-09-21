@@ -12,39 +12,38 @@ body{
   padding-top: 0px;
   margin-right: 20px;
   
-  .maindiv{
-
-    height: 800px;
-   z-index: -1;
-    position: relative;
-  }
-  
-  .div1{
-  
-     width: 130px;
-     height: 350px;
-     background-color:rgba(100, 241, 123, 0.1);
-     position: absolute;
-     top: -15px;
-     left:30px;
-    transform: skew(30deg);
-    transform: rotate(190deg);
-  
-  }
-  .div2{
-    
-    width: 130px;
-    top:-20px;
-     height: 550px;
-     background-color: rgba(100, 241, 123, 0.1);
-     position: absolute;
-     left:110px;
-     transform: skew(20deg);
-     transform: rotate(190deg);
-  }
- 
-  
 }
+/* .p1 .l #b_design{
+
+  height: 800px;
+ z-index: -1;
+  position: absolute;
+} */
+
+.p1 .l #rect_1{
+  z-index: -1;
+  position: absolute;
+   width: 130px;
+   height: 350px;
+   background-color:rgba(100, 241, 123, 0.1);
+   top: -15px;
+   left:30px;
+  transform: skew(30deg);
+  transform: rotate(190deg);
+
+}
+.p1 .l #rect_2{
+  z-index: -1;
+  position: absolute;
+  width: 130px;
+  top:-20px;
+   height: 550px;
+   background-color: rgba(100, 241, 123, 0.1);
+   left:110px;
+   transform: skew(20deg);
+   transform: rotate(190deg);
+}
+
 
  .l{
   padding-top:0px;
@@ -903,6 +902,7 @@ margin-left: 30px;
  width: max-content;
  margin-left: 110px;
  margin-right: 150px;
+}
 .cardimg{
   width: 45px;
   height: 45px;
